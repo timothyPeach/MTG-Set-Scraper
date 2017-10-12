@@ -17,3 +17,5 @@ the value of a booster box just by entering the set name and how many mythic rar
 I'll be updating this here and there so that it has additional useful functionality.
 
 Happy estimating!
+
+EDIT:  Currently I do not have exceptions that handle sets like Amonkhet, Hour of Devastation, Kaladesh, Aether Revolt, and other sets which all contain very very rare "Masterpiece" cards which have to be factored in to the average value, and so for those, the value estimation is currently inaccurate.
