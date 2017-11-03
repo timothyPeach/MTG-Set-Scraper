@@ -1,21 +1,9 @@
-# MTG-Set-Scraper-and-Booster-Box-Value-Estimator
+# MTG-Set-Scraper
 
 Hey there!  
 
-This is the first version of my webscraper / value estimator for Magic the Gathering (MtG) booster boxes in different card sets!
+This is the an early version of an MtG set Webscraper / to-DataFrame / to-csv conversion.  It currently can get a lot of information on different Magic the Gathering sets and distill it into a .csv file.  There was a need for regex in the scraping of the actual text that's on the cards, but mostly this was easy and only required string splitting.  I'll need to look for a harder site to really showcase webscraping and data engineering, but this is what I have for now.
 
-In MtG, there are several different sets with different names like "Hour of Devastation", "Eldritch Moon", and "Ixalan":
+But yeah with this you can pretty quickly download and save an entire set and all the information about all the rare and mythic cards.  I have not included uncommons and commons yet, because in the beginning, I intended for this to be about estimating booster box value for different MtG sets, rather than just collecting info on all the cards, and it's really the rares and mythics that have basically all the value in sets.
 
-All of these have lots of cool cards in their booster boxes and stuff, but how much are they worth on average?
-How much are the cards selling for right now?
-
-Rather than taking what must be at least an hour to manually go on gatherer.wizards.com and get all the names of
-Rare and Mythic cards and go to mtggoldfish.com and enter them all in the search bar and make sure you specify the correct set
-(what a headache!) these functions allow you to scrape an entire set in half a minute and estimate
-the value of a booster box just by entering the set name and how many mythic rares appear in a box on average.
-
-I'll be updating this here and there so that it has additional useful functionality.
-
-Happy estimating!
-
-EDIT:  Currently I do not have exceptions that handle sets like Amonkhet, Hour of Devastation, Kaladesh, Aether Revolt, and other sets which all contain very very rare "Masterpiece" cards which have to be factored in to the average value, and so for those, the value estimation is currently inaccurate.
+Anyhow yeah, check it out!  Webscraping / Data engineering repo!
